@@ -1,4 +1,5 @@
-Pixora 
+# Pixora 
+
 
 A **full-stack AI web application** that transforms your **text prompts into stunning images** using cutting-edge AI models.
 Built with the **MERN stack** (MongoDB, Express.js, React, Node.js), styled using **TailwindCSS**, and enhanced with **Framer Motion** animations — Pixora delivers a smooth, interactive, and visually appealing experience for users.
@@ -16,7 +17,7 @@ Built with the **MERN stack** (MongoDB, Express.js, React, Node.js), styled usin
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 **Frontend:** React, Vite, TailwindCSS, Axios, React-Toastify, Framer Motion
 **Backend:** Node.js, Express.js, MongoDB, Mongoose, JWT, Bcrypt, Razorpay
@@ -25,7 +26,7 @@ Built with the **MERN stack** (MongoDB, Express.js, React, Node.js), styled usin
 
 ---
 
-## 🖥️ Project Setup
+##  Project Setup
 
 ### 🔹 Clone the Repository
 
@@ -68,7 +69,7 @@ PIXORA/
 ```
 
 
-## 🧩 Client Setup
+## Client Setup
 
 Move to the client folder:
 
@@ -100,7 +101,7 @@ npm run dev
 
 ---
 
-## ⚙️ Server Setup
+## Server Setup
 
 Move to the server folder:
 
@@ -123,7 +124,7 @@ npm run server
 
 ---
 
-## 🗄️ Database Setup (MongoDB Atlas)
+##  Database Setup (MongoDB Atlas)
 
 1. Go to [MongoDB Atlas](https://www.mongodb.com/atlas/database).
 2. Choose the **Free Tier**, select **Google Cloud**, and deploy your cluster.
@@ -138,7 +139,7 @@ npm run server
 
 ---
 
-## 🔑 Environment Variables
+##  Environment Variables
 
 Create a `.env` file inside the **Server** folder with:
 
@@ -151,12 +152,12 @@ RAZORPAY_SECRET=your_razorpay_secret
 ```
 ---
 
-## 🧠 Future Enhancements
+##  Future Enhancements
 
-* 🖼️ User image gallery with sharing options
-* 🎨 Advanced AI models (Stable Diffusion / Flux / DALL·E integration)
-* 📂 Download and history feature
-* 🚀 Cloud deployment (Render + Vercel combo)
+*  User image gallery with sharing options
+*  Advanced AI models (Stable Diffusion / Flux / DALL·E integration)
+*  Download and history feature
+*  Cloud deployment (Render + Vercel combo)
 
 ---
 
