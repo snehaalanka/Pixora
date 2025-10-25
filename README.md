@@ -1,3 +1,5 @@
+Pixora 
+
 A **full-stack AI web application** that transforms your **text prompts into stunning images** using cutting-edge AI models.
 Built with the **MERN stack** (MongoDB, Express.js, React, Node.js), styled using **TailwindCSS**, and enhanced with **Framer Motion** animations — Pixora delivers a smooth, interactive, and visually appealing experience for users.
 
