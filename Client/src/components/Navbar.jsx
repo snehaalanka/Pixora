@@ -10,10 +10,14 @@ const Navbar = () => {
     const navigate = useNavigate()
 
     return (
-        <div className='flex items-center justify-between py-4'>
-
-            <Link to='/'><img className='w-28 sm:w-32 lg:w-40' src={assets.logo} alt="" /></Link>
-
+        <div className='flex items-center justify-between w-full py-5 px-0'>
+            <Link to='/' className='flex items-center ml-0'>
+               <img className='w-10 sm:w-12 lg:w-10' src={assets.logo_icon} alt="Pixora" />
+               <p className='ml-2 text-xl sm:text-2xl lg:text-3xl font-bold text-black'>
+               Pixora
+              </p>
+            </Link>
+         
             <div>
                 {
                     user

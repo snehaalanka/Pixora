@@ -18,10 +18,12 @@ const Login = () => {
         e.preventDefault()
 
         try {
+            let apiUrl = '';
 
             if (state === 'Login') {
+                apiUrl = backendUrl + '/api/user/login';
 
-                const { data } = await axios.post(backendUrl + '/api/user/login', { email, password })
+                const { data } = await axios.post(apiUrl , { email, password })
 
                 if (data.success) {
                     setToken(data.token)
@@ -34,8 +36,9 @@ const Login = () => {
 
             } else {
 
-                const { data } = await axios.post(backendUrl + '/api/user/register', { name, email, password })
-
+                apiUrl = backendUrl + '/api/user/register';
+                
+                const { data } = await axios.post(apiUrl, { name, email, password })
                 if (data.success) {
                     setToken(data.token)
                     setUser(data.user)

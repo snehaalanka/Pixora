@@ -8,12 +8,11 @@ import rating_star from './rating_star.svg'
 import sample_img_1 from './sample_img_1.png'
 import sample_img_2 from './sample_img_2.png'
 import sample_img_9 from './sample_img_9.png'
-import sample_image_3 from './sample_image_3.png'
-import sample_image_4 from './sample_image_4.png'
-import sample_image_5 from './sample_image_5.png'
-import sample_image_6 from './sample_image_6.png'
-import sample_image_7 from './sample_image_7.png'
-import sample_image_8 from './sample_image_8.png'
+import cluds from './cluds.png'
+import girl from './girl.png'
+import palace from './palace.png'
+import rose from './rose.png'
+import something from './something.png'
 import profile_img_1 from './profile_img_1.png'
 import profile_img_2 from './profile_img_2.png'
 import profile_img_3 from './profile_img_3.png'
@@ -41,12 +40,11 @@ export const assets = {
     sample_img_1,
     sample_img_2,
     sample_img_9,
-    sample_image_3,
-    sample_image_4,
-    sample_image_5,
-    sample_image_6,
-    sample_image_7,
-    sample_image_8,
+    cluds,
+    girl,
+    palace,
+    rose,
+    something,
     email_icon,
     lock_icon,
     name_icon,

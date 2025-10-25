@@ -21,14 +21,14 @@ const Header = () => {
     return (
         <motion.div
             className='flex flex-col justify-center items-center text-center my-20'
-            initial={{ opacity: 0.2, y: 100 }}
+            initial={{ opacity: 0.2, y: 10 }}
             transition={{ duration: 1 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
         >
             <motion.div
-                className='text-stone-500 inline-flex items-center gap-2 bg-white px-6 py-1 rounded-full border border-neutral-500'
-                initial={{ y: -20, opacity: 0 }}
+                className='text-stone-600 inline-flex items-center gap-0'
+                initial={{ y: -10, opacity: 8 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ delay: 0.2, duration: 0.8 }}
             >
@@ -42,7 +42,7 @@ const Header = () => {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.4, duration: 2 }}
             >
-                Turn text to <span className='text-blue-600'>image</span>, in seconds.
+                Turn text to <span className='text-blue-600'>Image</span>, in seconds.
             </motion.h1>
 
             <motion.p
@@ -55,7 +55,7 @@ const Header = () => {
             </motion.p>
 
             <motion.button
-                className='sm:text-lg text-white bg-black w-auto mt-8 px-12 py-2.5 flex items-center gap-2 rounded-full'
+                className='sm:text-lg text-white bg-blue-600 w-auto mt-8 px-12 py-2.5 flex items-center gap-2 rounded-full'
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 initial={{ opacity: 0 }}
@@ -73,12 +73,11 @@ const Header = () => {
                 transition={{ delay: 1, duration: 1 }}
             >
                 {[
-                    assets.sample_image_3,
-                    assets.sample_image_4,
-                    assets.sample_image_5,
-                    assets.sample_image_6,
-                    assets.sample_image_7,
-                    assets.sample_image_8
+                    assets.cluds,
+                    assets.girl,
+                    assets.something,
+                    assets.palace,
+                    assets.rose,
                  ].map((src, index) => (
                     <motion.img
                         className='rounded hover:scale-105 transition-all duration-300 cursor-pointer max-sm:w-10'
