@@ -7,10 +7,10 @@ Built with the **MERN stack** (MongoDB, Express.js, React, Node.js), styled usin
 
 *  **AI Text-to-Image Generation** — Convert text prompts into images in seconds.
 *  **Image Management** — Save, view, or share generated images.
-* 🔐 **Authentication** — Secure JWT-based login system.
-* 💳 **Razorpay Integration** — For premium or credit-based image generation.
-* 🎨 **Smooth UI** — Built with TailwindCSS and Framer Motion.
-* ⚡ **Full-Stack Architecture** — MERN stack ensures flexibility and scalability.
+*  **Authentication** — Secure JWT-based login system.
+*  **Razorpay Integration** — For premium or credit-based image generation.
+*  **Smooth UI** — Built with TailwindCSS and Framer Motion.
+*  **Full-Stack Architecture** — MERN stack ensures flexibility and scalability.
 
 ---
 
@@ -33,6 +33,38 @@ cd pixora
 ```
 
 ---
+## 📁 Folder Structure
+
+```
+PIXORA/
+│
+├── Client/
+│   ├── node_modules/
+│   ├── public/
+│   ├── src/
+│   ├── eslint.config.js
+│   ├── index.html
+│   ├── package.json
+│   ├── postcss.config.js
+│   ├── tailwind.config.js
+│   ├── vite.config.js
+│   └── vercel.json
+│
+├── Server/
+│   ├── configs/
+│   ├── controllers/
+│   ├── middlewares/
+│   ├── models/
+│   ├── node_modules/
+│   ├── routes/
+│   ├── .env
+│   ├── package.json
+│   ├── server.js
+│   └── vercel.json
+│
+└── README.md
+```
+
 
 ## 🧩 Client Setup
 
@@ -58,11 +90,6 @@ npm install -D tailwindcss@3 postcss autoprefixer
 npx tailwindcss init -p
 ```
 
-> 🧹 **Optional Cleanup**
->
-> * Delete `App.css`
-> * Clear `App.jsx` (type `rafce` and press Enter for a clean component template)
-
 ### Run the client
 
 ```bash
@@ -84,14 +111,6 @@ cd Server
 ```bash
 npm init -y
 npm i express cors dotenv nodemon form-data jsonwebtoken mongoose axios bcrypt razorpay
-```
-
-### Add module type
-
-In your `package.json`, include:
-
-```json
-"type": "module"
 ```
 
 ### Run the server
@@ -128,41 +147,6 @@ JWT_SECRET=your_jwt_secret
 RAZORPAY_KEY=your_razorpay_key
 RAZORPAY_SECRET=your_razorpay_secret
 ```
-
----
-
-## 📁 Folder Structure
-
-```
-PIXORA/
-│
-├── Client/
-│   ├── node_modules/
-│   ├── public/
-│   ├── src/
-│   ├── eslint.config.js
-│   ├── index.html
-│   ├── package.json
-│   ├── postcss.config.js
-│   ├── tailwind.config.js
-│   ├── vite.config.js
-│   └── vercel.json
-│
-├── Server/
-│   ├── configs/
-│   ├── controllers/
-│   ├── middlewares/
-│   ├── models/
-│   ├── node_modules/
-│   ├── routes/
-│   ├── .env
-│   ├── package.json
-│   ├── server.js
-│   └── vercel.json
-│
-└── README.md
-```
-
 ---
 
 ## 🧠 Future Enhancements
@@ -174,43 +158,9 @@ PIXORA/
 
 ---
 
-## 🧑‍💻 Deployment Notes
-
-* **Frontend:** Deployed on [Vercel](https://vercel.com/) using `Client/vercel.json`.
-* **Backend:** Also deployable via Vercel or Render (`Server/vercel.json` config included).
-* Update API endpoints in the frontend based on your deployment URLs.
-
----
-
-## 🤝 Contributing
-
-Contributions are always welcome!
-If you’d like to add new features or fix bugs, feel free to fork this repo and create a pull request.
-
----
-
 ## 🪪 License
 
 This project is open-source under the **MIT License**.
 
 ---
 
-## 🧾 Markdown Guide (for Reference)
-
-| Markdown syntax | What it becomes on GitHub        |
-| --------------- | -------------------------------- |
-| `# Pixora`      | Big main heading                 |
-| `## Features`   | Smaller section heading          |
-| `**text**`      | **bold text**                    |
-| `- item`        | bullet point                     |
-| ```bash ... ``` | code block with syntax highlight |
-
----
-
-**Made with ❤️ by [Your Name]**
-
----
-
-✅ Just copy all this → paste into your `README.md` → save → push.
-GitHub will render it perfectly with headings, bold text, and code formatting.
-# Pixora
