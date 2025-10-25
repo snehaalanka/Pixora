@@ -31,7 +31,7 @@ Built with the **MERN stack** (MongoDB, Express.js, React, Node.js), styled usin
 
 ```bash
 git clone https://github.com/snehaalanka/Pixora.git
-cd pixora
+cd Pixora
 ```
 
 ---
