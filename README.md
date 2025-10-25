@@ -19,10 +19,9 @@ Built with the **MERN stack** (MongoDB, Express.js, React, Node.js), styled usin
 
 ##  Tech Stack
 
-**Frontend:** React, Vite, TailwindCSS, Axios, React-Toastify, Framer Motion
-**Backend:** Node.js, Express.js, MongoDB, Mongoose, JWT, Bcrypt, Razorpay
-**Database:** MongoDB Atlas
-**Deployment:** Vercel (Frontend + Backend)
+* **Frontend:**- React, Vite, TailwindCSS, Axios, React-Toastify, Framer Motion
+* **Backend:**- Node.js, Express.js, MongoDB, Mongoose, JWT, Bcrypt, Razorpay
+* **Database:**- MongoDB Atlas
 
 ---
 
